@@ -1,0 +1,570 @@
+/*This stylesheet styles the main section for this website */
+
+body {
+
+    font-family: sans-serif;
+    /*background-color: lightblue;*/
+    text-align: center;
+
+    margin: 0;
+
+    font-family: 'ABeeZee', sans-serif;
+
+}
+
+/*Styles for hero section */
+
+#hero-section {
+
+    /*background-color: white;*/
+
+    background-image: url("../Images/hero-image.jpg");
+    background-size: 100% 700px;
+    background-repeat: no-repeat;
+
+    padding-top: 30px;
+    padding-bottom: 80px;
+
+}
+
+#hero-section-heading {
+
+    font-size: 50px;
+
+    margin: auto;
+    width: 60%;
+
+    margin-top: 20px;
+
+    color: #571FA6;
+
+}
+
+#hero-section-paragraph{
+
+    font-size: 22px;
+    position: relative;
+    bottom: 5px;
+
+    padding-top: 10px;
+    font-weight: bold;
+
+}
+
+#hero-button {
+
+    border: 4px solid #CC9CD9;
+    background-color: white;
+    border-radius: 15px;
+    padding: 10px 40px 10px 40px;
+    margin-bottom: 30px;
+
+    transform: scale(1.1);
+
+
+    /*border: 4px solid #CC9CD9;*/
+    border-style: none;
+    background-image: linear-gradient(to right, #8A1ABD, #571FA6);
+
+}
+
+#hero-button:hover {
+
+    background-color: #0E7EFE;
+    border-width: 2px;
+
+    transform: scale(1.2);
+
+}
+
+#hero-button a {
+
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 22px;
+
+}
+
+#hero-button:hover a {
+
+    color: white;
+
+}
+
+#down-arrow {
+
+    position: relative;
+    top: 35px;
+    display: block;
+    margin: auto;
+    width: 50px;
+    height: 50px;
+
+    border: 3px solid #CC9CD9;
+    border-radius: 30px;
+
+    padding: 5px;
+
+    background-color: white;
+    display: none;
+
+}
+
+h2 {
+
+    font-size: 40px;
+
+}
+
+/*Styles for services section */
+
+#services-section {
+
+    background-color: white;
+
+    padding-top: 30px;
+    padding-bottom: 90px;
+
+}
+
+#services-section h2 {
+
+    color: /*#4f1c97*/#571FA6 ;
+
+    margin-bottom: 0px;
+
+}
+
+#service-description {
+
+    margin: auto;
+    margin-top: 20px;
+    margin-bottom: 70px;
+    width: 80%;
+
+
+}
+
+#services-section h3 {
+
+    color: black;
+
+}
+
+#services-section button {
+
+    display: block;
+    margin: auto;
+    width: 60%;
+
+    margin-top: 10px;
+
+    font-size: 20px;
+    /*border: 4px solid #CC9CD9;*/
+    border-style: none;
+    background-image: linear-gradient(to right, #8A1ABD, #571FA6);
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 10px 40px 10px 40px;
+
+    font-weight: bold;
+
+    outline: none;
+
+}
+
+#services-section button:hover {
+
+    transform: scale(1.1);
+
+}
+
+.services-flex-item {
+
+    margin: auto;
+
+    border-radius: 20px;
+
+    margin-bottom: 70px;
+    width: 70%;
+
+    /*border: 2px solid black;*/
+
+}
+
+.services-icon {
+
+    width: 100%;
+    height: 375px;
+
+    border-radius: 20px;
+
+    border: 4px solid #CC9CD9;
+
+}
+
+h3 {
+
+    font-size: 25px;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+p {
+
+    font-size: 20px;
+
+}
+
+/*Styles for the product we design section */
+
+#products-we-design-section {
+
+    /*background-image: linear-gradient(to right, #8D69BF, #571FA6);*/
+    /*background-color: #571FA6;*/
+    /*background-image: linear-gradient(to right, #8A1ABD, #571FA6);*/
+    background-color: #e6d4f7;
+
+    padding-top: 80px;
+    padding-bottom: 70px;
+
+}
+
+#products-we-design-section h2 {
+
+    margin: auto;
+    width: 60%;
+
+    margin-bottom: 20px;
+
+    position: relative;
+    bottom: 35px;
+
+    color: black;
+
+
+}
+
+#products-we-design-section h3 {
+
+    color: #571FA6;
+    font-size: 27px;
+    text-align: center;
+
+}
+
+.products-icon {
+
+    width: 30%;
+
+}
+
+#products-we-design-section p {
+
+    margin: auto;
+    width: 70%;
+
+    text-align: center;
+
+}
+
+.products-we-design-flex-item {
+
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    margin: auto;
+    margin-bottom: 20px;
+    width: 70%;
+
+    background-color: white;
+
+    border: 4px solid #CC9CD9;
+    border-radius: 20px;
+}
+
+/*Styles for the email subscription section */
+
+#email-subscription-section {
+
+    padding-top: 30px;
+
+    background-color: /*#bfbfbf*/white;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+}
+
+#email-subscription-heading {
+
+    margin: auto;
+    width: 60%;
+    margin-bottom: 30px;
+
+    color: #4f1c97;
+
+    font-size: 40px;
+
+}
+
+#email-subscription-paragraph {
+
+  margin: auto;
+  width: 50%;
+
+  font-size: 18px;
+
+  margin-bottom: 20px;
+
+}
+
+#email-subscription-form label {
+
+    padding-right: 63.5%;
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+
+}
+
+#email-subscription-form input {
+
+    display: block;
+    margin: auto;
+    width: 80%;
+
+    border-radius: 15px;
+    border: 2px solid #4f1c97;
+    /*border-style: none;*/
+
+    text-align: center;
+
+    padding: 7px 20px 7px 15px;
+
+    font-size: 18px;
+    outline: none;
+
+}
+
+#email-subscription-form button {
+
+    display: block;
+    margin: auto;
+    width: 85%;
+
+    margin-top: 10px;
+
+    font-size: 20px;
+    /*border: 4px solid #CC9CD9;*/
+    border-style: none;
+    background-image: linear-gradient(to right, #8A1ABD, #571FA6);
+    color: white;
+
+    border-radius: 20px;
+
+    padding: 10px 40px 10px 40px;
+
+    font-weight: bold;
+
+    outline: none;
+
+}
+
+#email-subscription-form button:hover {
+
+    transform: scale(1.1);
+
+}
+
+
+/* The below media queries style the main section when the layout is changed from mobile to desktop */
+
+@media screen and (min-width: 768px) {
+
+    #hero-section {
+
+    height: 550px;
+
+    }
+
+    #hero-content-container {
+
+      padding-top: 100px;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+
+    #hero-content-container {
+
+        margin: auto;
+        width: 85%;
+
+        padding-top: 50px;
+
+        padding-bottom: 30px;
+
+        display: flex;
+        justify-content: center;
+
+    }
+
+    #hero-content-container div {
+
+        width: 70%;
+
+    }
+
+    #services-section {
+
+        padding-bottom: 30px;
+
+    }
+
+    #services-section-flex-parent {
+
+        display: flex;
+
+        margin: auto;
+        width: 70%;
+
+    }
+
+    .services-flex-item {
+
+        width: 90%;
+
+    }
+
+    .services-icon {
+
+        width: 80%;
+        height: 250px;
+
+    }
+
+    /* Media query styles for product section */
+
+    #products-section-flex-parent{
+
+        display: flex;
+
+        margin: auto;
+        width: 50%;
+
+        justify-content: center;
+
+    }
+
+    .products-we-design-flex-item {
+
+        width: 50%;
+        margin-left: 40px;
+        margin-right: 40px;
+
+    }
+
+    /* Media query styles for email section */
+
+    #email-subscription-section {
+
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    #email-section-flex-parent {
+
+        display: flex;
+
+        margin: auto;
+        width: 50%;
+
+        /*background-color: pink;*/
+
+    }
+
+    #email-subscription-form {
+
+        margin: auto;
+        width: 90%;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
+
+    #email-subscription-heading {
+
+        width: 50%;
+
+    }
+
+    #email-subscription-form label {
+
+        display: none;
+
+    }
+
+    #email-subscription-form input {
+
+        width: 450px;
+        margin-top: 15px;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        border-radius: 15px;
+
+    }
+
+    #email-subscription-form button {
+
+        width: 300px;
+
+        margin-left: 30px;
+        margin-right: 0;
+
+    }
+
+}/* end of media query */
+
+@media screen and (min-width: 1079px) {
+
+  #down-arrow {
+
+    display: block;
+    position: absolute;
+
+    top: 500px;
+    right: 48%;
+  }
+
+}/* end media query */
+
+
+@media screen and (min-width: 2560px) {
+
+  #down-arrow {
+
+    right: 49%;
+
+  }
+
+  #site-container {
+
+    margin: auto;
+    width: 50%;
+
+  }
+
+}

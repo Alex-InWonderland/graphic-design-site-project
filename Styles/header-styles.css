@@ -1,0 +1,118 @@
+/*This stylesheet styles the header for this website */
+
+header {
+
+  border-bottom: 4px solid #CC9CD9;
+
+}
+
+#header-div {
+
+    background-color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#nav-menu {
+
+    display: none;
+    list-style-type: none;
+
+    font-size: 23px;
+
+}
+
+#nav-menu li {
+
+    padding: 10px;
+    color: #571fa6;
+
+    border-radius: 15px;
+}
+
+#nav-menu li:hover {
+
+    background-color: #571FA6;
+    color: white;
+
+    border-radius: 15px;
+
+    font-weight: bold;
+
+}
+
+#site-logo, #hamburger-menu {
+
+    display: block;
+    width: 45%;
+    height: 80px;
+
+}
+
+#hamburger-menu {
+
+    border-radius: 15px;
+    border-style: none;
+    background-color: rgba(0,0,0,0);
+    outline: none;
+
+}
+
+#hamburger-menu:hover {
+
+    transform: scale(0.95);
+
+}
+
+/* The below media queries style the header when the layout is changed from mobile to desktop */
+
+@media screen and (min-width: 768px) {
+
+    #header-div {
+
+        justify-content: space-between;
+        margin: auto;
+        /*background-color: pink;*/
+        width: 75%;
+
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+
+    #site-logo {
+
+        width: 230px;
+        height: 95px;
+
+    }
+
+    #hamburger-container {
+
+        display: none;
+
+    }
+
+    #nav-menu {
+
+        display: block;
+
+    }
+
+    #nav-menu li {
+
+        display: inline;
+
+        font-weight: bold;
+
+    }
+
+
+
+}

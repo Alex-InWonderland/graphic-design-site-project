@@ -1,0 +1,39 @@
+/*This stylesheet styles the footer for this website */
+
+footer {
+
+    background-color: black;
+    height: 250px;
+
+}
+
+#footer-flex-parent {
+
+    display: flex;
+    justify-content: space-around;
+
+    /*background-color: aqua;*/
+    position: relative;
+    top: 50%;
+
+    margin: auto;
+    width: 50%;
+
+}
+
+.social-media-icon {
+
+    width: 30px;
+
+}
+
+@media screen and (min-width: 768px) {
+
+    #footer-flex-parent {
+
+        justify-content: space-between;
+        width: 20%;
+
+    }
+
+}
